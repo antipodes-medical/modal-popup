@@ -122,10 +122,41 @@ modal-popup.is-active {
     opacity: 1;
 }
 modal-popup > div {
+    position: relative;
     flex: 1;
     max-width: 48rem;
     margin: auto;
     padding: 2.4rem;
     background-color: #FFF;
+}
+
+/* Stylise le bouton de fermeture */
+modal-popup button[data-dismiss] {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+modal-popup button[data-dismiss]::before,
+modal-popup button[data-dismiss]::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 20px;
+    background-color: #000;
+    transform: rotate(45deg) translate(-50%, -50%);
+    transform-origin: top left;
+}
+modal-popup button[data-dismiss]::after {
+    transform: rotate(-45deg) translate(-50%, -50%);
 }
 ```

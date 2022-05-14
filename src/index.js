@@ -53,10 +53,7 @@ class Modal extends HTMLElement {
                 aria-label="Close"
                 title="Close"
                 data-dismiss="dialog"
-            >
-               <span></span>
-               <span></span>
-            </button>
+            ></button>
         `;
 
     this.innerHTML = button + this.innerHTML;
