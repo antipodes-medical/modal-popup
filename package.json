@@ -1,6 +1,6 @@
 {
-  "name": "@antipodes-medical/NOM-DU-PACKAGE",
-  "version": "VERSION-DU-PACKAGE",
+  "name": "@antipodes-medical/modal-popup",
+  "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,16 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antipodes-medical/NOM-DU-PACKAGE.git"
+    "url": "git+https://github.com/antipodes-medical/modal-popup.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/antipodes-medical/NOM-DU-PACKAGE/issues"
+    "url": "https://github.com/antipodes-medical/modal-popup/issues"
   },
-  "homepage": "https://github.com/antipodes-medical/NOM-DU-PACKAGE#readme",
+  "homepage": "https://github.com/antipodes-medical/modal-popup#readme",
   "description": "",
   "devDependencies": {
     "@antipodes-medical/eslint-config-antipodes": "^1.0.5"
+  },
+  "dependencies": {
+    "@antipodes-medical/js-helpers": "^1.0.0"
   }
 }
